@@ -1,0 +1,20 @@
+{
+  "name": "github-actions-deploy",
+  "version": "1.0.0",
+  "description": "Simple project to test GitHub Actions CI/CD 🚀",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-actions-deploy:sajdialiu12/github-actions-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
