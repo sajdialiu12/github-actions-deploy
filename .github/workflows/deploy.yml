@@ -14,13 +14,10 @@ jobs:
       id-token: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Upload artifact for Pages
+      - uses: actions/checkout@v3
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
-
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: actions/deploy-pages@v2
